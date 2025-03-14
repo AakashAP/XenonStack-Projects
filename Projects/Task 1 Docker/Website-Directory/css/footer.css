@@ -1,0 +1,258 @@
+.footer-register {
+  color: #BA5613;
+  background-color: #ffffff;
+  margin-top: 1rem;
+  float: right;
+}
+
+.footer-logo {
+  width: 8rem;
+}
+
+.image-footer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-footer h2 {
+  margin-left: 1rem;
+}
+
+.footer-upper {
+  background-color: #BA5613;
+}
+
+.footer-upper {
+  padding: 6rem 0;
+}
+
+.footer-upper h2 {
+  color: #ffffff !important;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.footer-text {
+  text-align: end;
+  margin-top: 15px;
+}
+
+.social-links {
+  width: 9%;
+  padding: 1.5rem 0.5rem;
+}
+
+.footer-links {
+  background-color: #2A007A;
+  padding: 5rem 0;
+}
+
+.footer-links input {
+  border: none;
+  width: 90%;
+  padding: 2rem 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+}
+
+.footer-text.above-links {
+  padding-top: 2rem;
+}
+
+@media (max-width:767px) {
+  .footer-text {
+    text-align: start;
+  }
+  .footer ul {
+    justify-content: flex-start;
+  }
+  .footer-text.above-links {
+    padding-top: 9rem;
+  }
+  .footer-text.below-links {
+    padding-top: 2rem;
+  }
+  .footer-register {
+    float: left;
+  }
+}
+
+/* upcoming events */
+
+.upcoming-events-footer {
+  background-color: #F1EFF9;
+  padding: 5rem 0 17rem 0;
+  margin-top: 12rem;
+}
+
+.upcoming-events-footer h2 {
+  color: #2A007A;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+.data {
+  background-color: #BA5613 !important;
+}
+
+@media(min-width:1641px) {
+  .upcoming-events-footer {
+    margin-top: 16rem;
+  }
+}
+
+.slider-wrapper {
+  background-color: #2A007A;
+  margin: 0 2rem;
+  padding: 6rem;
+  min-height: 100%;
+}
+
+.slider-wrapper span {
+  color: #ffffff !important;
+}
+
+.slider-heading {
+  padding-top: 5rem;
+}
+
+.splide__arrow {
+  margin-top: 26rem;
+  background-color: transparent !important;
+  border: 1px solid #2A007A !important;
+  height: 4em !important;
+  width: 4em !important;
+  top: 72% !important;
+}
+
+.splide__pagination__page {
+  background-color: transparent !important;
+}
+
+.splide__arrow--next {
+  right: 90% !important;
+}
+
+.splide__arrow svg {
+  fill: #2A007A !important;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  color: black !important;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background: transparent;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #2A007A;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.next {
+  right: 0;
+  text-align: center;
+  /* margin-right: 35%; */
+  right: calc(46% - 40px);
+}
+
+.prev {
+  transform: rotate( 180deg);
+  /* margin-left: 41%; */
+  left: calc(44% - 40px);
+}
+
+.slider-arrow {
+  width: 2rem;
+  margin-top: 2rem;
+}
+
+@media(max-width:767px) {
+  .slider-wrapper {
+    padding: 6rem 2rem;
+  }
+  .splide__arrow--next {
+    right: calc(45% - 40px) !important;
+  }
+  .splide__arrow--prev {
+    left: calc(49% - 40px) !important;
+  }
+  .slider-heading.ai {
+    width: 92%;
+  }
+}
+
+@media(min-width:768px) {
+  .mobile-view-team-sec {
+    display: none;
+  }
+  .slider-heading.cncf {
+    padding-bottom: 5rem;
+  }
+  .mid-view {
+    display: none;
+  }
+}
+
+@media(max-width:767px) {
+  .mobile-view-team-sec {
+    display: none;
+  }
+  .desktop-view-footer {
+    display: none;
+  }
+  .slider-wrapper {
+    width: max-content;
+    margin: auto;
+  }
+  .slider-heading {
+    padding-top: 9rem;
+  }
+  .slider-wrapper {
+    padding: 11rem 9rem;
+    width: 88%;
+  }
+}
+
+@media(max-width:767px) and (min-width:540) {
+  .mid-view {
+    display: block;
+  }
+}
+
+@media(max-width:539px) {
+  .mid-view {
+    display: none;
+  }
+  .mobile-view-team-sec {
+    display: block;
+  }
+}
+
+/* end slider */
+
+.footer-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.footer-register.checkout-button {
+  color: #BA5613;
+}
