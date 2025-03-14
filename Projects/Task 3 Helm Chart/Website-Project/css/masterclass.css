@@ -1,0 +1,240 @@
+/* benefits-of-master-class */
+
+.benefits-of-master-class h2 {
+  color: #161616;
+}
+
+.benefits-of-master-class p {
+  color: #2b363a;
+}
+
+.benefits-of-master-class-wrapper {
+  display: flex;
+}
+
+.content-wrapper {
+  padding: 19rem 8rem 0rem 5rem;
+  box-shadow: 0px 4px 8px #00000029;
+  opacity: 1;
+  background-color: #fff;
+}
+.community-img {
+  padding-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .reverse {
+    flex-direction: column-reverse;
+  }
+}
+.all-about-masterclass-sub-section {
+  padding: 5rem;
+  margin-top: 22rem;
+}
+/* ends */
+
+/* about master-class */
+
+.unlock-transform-wrapper {
+  box-shadow: 0px 4px 8px #00000029;
+  opacity: 1;
+  margin-top: 21rem;
+  /* margin-left: 5rem; */
+  margin-right: -16rem;
+  position: relative;
+  z-index: 1;
+  background: white;
+}
+.right-slide-img {
+  position: inherit;
+  z-index: -1;
+}
+.unlock-transform-wrapper p,
+.all-about-masterclass-sub-section p {
+  color: #2b363a;
+}
+
+.all-about-masterclass-wrapper {
+  padding: 5rem;
+}
+.all-about-masterclass h2 {
+  color: #161616;
+}
+/* about master-class end*/
+
+/* card-wrapper */
+.card-wrapper {
+  padding: 11rem 3rem 3rem;
+  background: linear-gradient(180deg, #00000029 0%, #000000 100%),
+    url(../images/Image-5.png) 0% 0% no-repeat padding-box;
+  margin: 0rem 3rem 3rem 0rem;
+  background-size: cover;
+}
+/* ends */
+
+/* what-is-master-class */
+.what-is-master-class h2 {
+  color: #161616;
+  margin-top: 11rem;
+}
+.masterclass-wrapper {
+  background-color: #ba5613;
+  padding: 8rem 8rem 16rem;
+}
+.master-img {
+  margin-top: -9rem;
+  width: inherit;
+}
+.small-block {
+  width: 50%;
+  margin-left: -30px;
+}
+
+/* ends */
+/* .card-wrapper::after {
+    content: "";
+    position: absolute;
+    background: black;
+    top: 159px;
+    bottom: 0;
+    left: 107px;
+    right: 83px;
+    z-index: -1;
+} */
+/* .card-wrapper::after {
+    content: "";
+    position: absolute;
+    background: black;
+    top: -133px;
+    bottom: 0;
+    left: 164px;
+    right: -179px;
+    z-index: -1;
+} */
+.card-1 {
+  background-image: url(../images/Image.png);
+  background-repeat: no-repeat;
+}
+
+.card-2 {
+  background-image: url(../images/Image-3.png);
+  background-repeat: no-repeat;
+}
+.card-3 {
+  background-image: url(../images/Image-1.png);
+  background-repeat: no-repeat;
+}
+.card-4 {
+  background-image: url(../images/Image-3.png);
+  background-repeat: no-repeat;
+}
+.card-5 {
+  background-image: url(../images/Image-4.png);
+  background-repeat: no-repeat;
+}
+.card-6 {
+  background-image: url(../images/Image-3.png);
+  background-repeat: no-repeat;
+}
+.card-7 {
+  background-image: url(../images/Image-4.png);
+  background-repeat: no-repeat;
+}
+.card-8 {
+  background-image: url(../images/Image-1.png);
+  background-repeat: no-repeat;
+}
+.triangle{
+  width: 68%;
+}
+.benefits-of-master-class{
+  position: relative;
+  }
+  
+  .benefits-of-master-class::after{
+  
+      content: "";
+      position: absolute;
+      top: 50%;
+      bottom: -100%;
+      left: 50%;
+      right: 0;
+      background-color: #ba5613;
+      z-index: -1;
+  }
+
+@media (max-width: 767px) {
+  .small-block {
+    display: none;
+  }
+  .triangle{
+    width: 100%;
+  }
+  .unlock-transform-wrapper {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .right-slide-img {
+    position: relative;
+  }
+  .what-is-master-class h2 {
+    margin-top: 0;
+  }
+  .content-wrapper {
+    padding: 5rem;
+  }
+  .all-about-masterclass-sub-section {
+    margin-top: 0rem;
+    padding: 5rem 0 0;
+  }
+  .masterclass-wrapper.desktop-view {
+    display: none;
+  }
+  .masterclass-wrapper.mobile-view {
+    display: block;
+  }
+  .master-img {
+    margin-top: 0;
+  }
+  .unlock-transform-wrapper.mobile-view {
+    display: block;
+    margin: -3rem 0 0 9rem;
+  }
+
+  .unlock-transform-wrapper.desktop-view {
+    display: none;
+  }
+  .all-about-masterclass-sub-section.mobile-view {
+    display: block;
+  }
+  .all-about-masterclass-sub-section.desktop-view {
+    display: none;
+  }
+  .bottom-img {
+    width: 100%;
+    margin-top: 6rem;
+  }
+  .card-wrapper {
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .masterclass-wrapper.mobile-view {
+    display: none;
+  }
+  .masterclass-wrapper.desktop-view {
+    display: block;
+  }
+  .unlock-transform-wrapper.mobile-view {
+    display: none;
+  }
+  .unlock-transform-wrapper.desktop-view {
+    display: block;
+  }
+  .all-about-masterclass-sub-section.mobile-view {
+    display: none;
+  }
+  .all-about-masterclass-sub-section.desktop-view {
+    display: block;
+  }
+}
