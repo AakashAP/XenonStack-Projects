@@ -1,10 +1,10 @@
 #/bin/bash
 
-REPO = "https://github.com/AakashAP/XenonStack-Projects.git"
-    DIR = "XenonStack-Projects/Projects/Task 1 Docker"
+REPO="https://github.com/AakashAP/XenonStack-Projects.git"
+    DIR="XenonStack-Projects/Projects/Task 1 Docker"
 
-IMAGE = "website-image"
-CONTAINER = "website-container"
+IMAGE="website-image"
+CONTAINER="website-container"
 
 
 
