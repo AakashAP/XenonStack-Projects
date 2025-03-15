@@ -29,8 +29,8 @@ XenonStack-Projects                     # Repository Root Directory
   git clone https://github.com/AakashAP/XenonStack-Projects.git
   ```
 
-**Configure Your Website** <br>
-  Replace the Content of the "Website-Directory" With Your Own Website's Root Directory.
+**Navigate to the Project Folder** <br>
+  Navigate to "Task 1 Docker" Directory for this Project.
 
 **Execute the Deployment Script** <br>
   Run the Deployment Script to Set Up the Environment and Deploy the Website
