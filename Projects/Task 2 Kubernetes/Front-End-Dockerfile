@@ -1,0 +1,11 @@
+FROM php:7.4-apache
+
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils \
+    && apt-get install -y libpq-dev libzip-dev \
+    && docker-php-ext-install pdo pdo_mysql zip
+
+COPY Front-End-Container .
+
+EXPOSE 80
+
+CMD ["apache2-foreground"]

@@ -27,7 +27,7 @@ echo -e "\n\n\nDOCKER CONFIGURATION"
 echo "---------------------------------------------------"
 
     if sudo docker images -q "$IMAGE" &> /dev/null; then
-        echo -e "\nRemoving existing Docker image..."
+        echo -e "\nRemoving Existing Image....."
         sudo docker rmi -f "$IMAGE"
     fi
     
@@ -36,7 +36,7 @@ echo "---------------------------------------------------"
 
 
     if [ "$(sudo docker ps -aq -f name=^${CONTAINER}$)" ]; then
-        echo -e "\nRemoving existing container..."
+        echo -e "\nRemoving Existing container....."
         sudo docker stop "$CONTAINER"
         sudo docker rm "$CONTAINER"
     fi
