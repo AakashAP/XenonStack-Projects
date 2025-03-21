@@ -3,16 +3,16 @@
 This Repository Conains 4 DevOps Projects, That I have Completed during an Internship at XenonStack Pvt. Ltd.
 
 Each Projects focuses on Different DevOps Techonology :
-- **DOCKER**
+- **DOCKER** <br>
   This Project Provides a Simple Method to Deploy a Static Website in a Docker Container.
 
-- **KUBERNETES**
+- **KUBERNETES** <br>
   This Project Provides a Simple Method to Deploy a Front-End Website as a Container in K8s Environment with Additional Empty MySQL Container
 
-- **HELM CHART**
+- **HELM CHART** <br>
   The Project Provides a Simple Method to Deploy a Static Website in a Minikube Environment using Helm Chart.
 
-- **JENKINS**
+- **JENKINS** <br>
   This Project uses Jenkins Pipeline to Deploy a Static Website in a Contaienr using Jenkinsfile.
 
 ## PROJECT DIRECTORY
