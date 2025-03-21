@@ -7,7 +7,21 @@ It Includes an Automated Deployment Script That Handles the Entire DevOps Proces
 ### PROJECT STRUCTURE
 
 ```bash
-XenonStack-Projects
+XenonStack-Projects                       # Repository Root Directory
+|── Projects
+    |── Task 2 Kubernetes
+        |── Database-Container            # Database Directory
+            |── MySQL-Script.sql
+        |── Front-End-Container           # Front End Directory
+            ...
+            |── index.php
+            ...
+        |── Database-Dockerfile           # Database Dockerfile Configuration
+        |── Database-YAML.yaml            # Database YAML Script
+        |── Front-End-Dockerfile          # Frontend Dockerfile Configuration
+        |── Front-End-YAML.yaml           # Frontend YAML Script
+        |── Kubernetes-Deployment.sh      # Automated Deployment Script
+        |── README.md
 ```
 
 ---
@@ -15,10 +29,17 @@ XenonStack-Projects
 ## GETTING STARTED
 
 **Clone the Repository** <br>
-  Content
+  Clone the Repository to Your Local Machine
+  ```bash
+  git clone https://github.com/AakashAP/XenonStack-Projects.git
+  ```
 
-**** <br>
-  Content
+**Navigate to the Project Folder** <br>
+  Navigate to "Task 2 Kubernetes" Directory for this Project.
 
-**** <br>
-  Content
+**Execute the Deployment Script** <br>
+  Run the Deployment Script to Set Up the Environment and Deploy the Website
+  ```bash
+  sudo chmod +x ./Docker-Deployment.sh
+  ./Kubernetes-Deployment.sh
+  ```

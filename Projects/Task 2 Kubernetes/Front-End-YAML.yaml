@@ -2,27 +2,28 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-    name: PHP-Frontend
+  name: frontend-deployment
 
 spec:
-    replicas: 1
+  replicas: 1
 
-    selector:
-        matchLabels:
-            app: PHP-Frontend
+  selector:
+    matchLabels:
+      app: frontend
 
-    template:
-        metadata:
-            labels:
-                app: PHP-Frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
 
-        spec:
-            containers:
-            - name: Frontend
-                image: front-end-image
-                ports:
-                - containerPort: 80
-                    imagePullPolicy: IfNotPresent
+    spec:
+      containers:
+      - name: frontend-container
+        image: front-end-image
+        ports:
+        - containerPort: 80
+
+        imagePullPolicy: IfNotPresent
 
 ---
 
@@ -30,17 +31,17 @@ apiVersion: v1
 kind: Service
 
 metadata:
-    name: PHP-Frontend
-    labels:
-        app: PHP-Frontemd
+  name: frontend-service
+  labels:
+    app: frontend
 
 spec:
-    selector:
-        app: PHP-Frontend
+  selector:
+    app: frontend
 
-    ports:
-    - port: 80
-        protocol: TCP
-        targetPort: 80
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
 
-    type: NodePort
+  type: NodePort

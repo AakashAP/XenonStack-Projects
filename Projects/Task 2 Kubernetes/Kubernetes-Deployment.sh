@@ -79,5 +79,18 @@ echo "---------------------------------------------------"
 
 
 
-# echo -e "\n\n\nDEPLOYMENT"
-# echo "---------------------------------------------------"
+echo -e "\n\n\nDEPLOYMENT"
+echo "---------------------------------------------------"
+
+    kubectl apply -f Front-End-YAML.yaml
+    echo -e "\n"
+    kubectl apply -f Database-YAML.yaml
+
+
+    NODE_IP=$(minikube ip)
+    PORT=$(kubectl get svc frontend-service -o jsonpath="{.spec.ports[0].nodePort}")
+
+
+    echo -e "\nFront-end Container is Deployed at : $NODE_IP:$PORT"
+    echo "Opening Webpages....."
+    firefox "http://$NODE_IP:$PORT"

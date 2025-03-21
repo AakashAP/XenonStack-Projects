@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/grid.css" />
+  <link rel="stylesheet" href="./css/primary.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/splide-core.min.css" />
+  <link rel="stylesheet" href="./css/splide.min.css" />
+
+</head>
+
+<body>
+  <main class="sections-wrapper">
+    <!-- header section -->
+    <header class="header" id="headerblock">
+      <div class="container">
+        <div class="desktop-header">
+          <nav class="nav-links">
+            <ul>
+              <li class="logo"><a href="/">Chandigarh.AI</a></li>
+
+              <a href="event.html">
+                <li class="heading">Schedule</li>
+              </a>
+              <a href="understand-us-better.html">
+                <li class="heading">Understand Us Better</li>
+              </a>
+              <a href="comunity.html">
+                <li class="heading">Community Lounge</li>
+              </a>
+              <a href="about-us.html">
+                <li class="heading">About</li>
+              </a>
+              <a href="#">
+                <li class="heading">
+                  <button class="registers checkout-button" type="button" onclick="openInviteModal();">
+                    REGISTER
+                  </button>
+                </li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <section class="p-menu1 mobile-view">
+          <nav id="navbar" class="navigation" role="navigation">
+            <a href="/">
+              <label for="logo" class="logo" id="mobile-logo">Chandigarh.AI</label></a>
+            <input id="toggle1" type="checkbox" />
+
+            <label class="hamburger1" onclick="showMenu()" for="toggle1" id="cross">
+              <div class="top"></div>
+              <div class="meat"></div>
+              <div class="bottom"></div>
+            </label>
+
+            <nav class="menu1">
+              <a class="link" href="event.html">Schedule</a>
+              <a class="link" href="understand-us-better.html">Understand Us Better</a>
+              <a class="link" href="comunity.html">Community Lounge</a>
+              <a class="link" href="about-us.html">About</a>
+              <a href="#" class="link">
+                <button class="registers checkout-buttons" type="button" onclick="openInviteModal();">
+                  REGISTER
+                </button>
+              </a>
+            </nav>
+          </nav>
+        </section>
+      </div>
+    </header>
+    <!-- ends -->
+    <div class="invite-modal-wrapper">
+      <div class="invite-modal">
+        <div class="close-btn-wrapper">
+          <button type="button" onclick="closeInviteModal()" class="close-btn">
+            &times;
+          </button>
+        </div>
+        <div class="">
+          <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+              region: "eu1",
+              portalId: "25195273",
+              formId: "7441ce98-8ce3-4f20-a369-632226045eaf",
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner starts -->
+    <section class="take-next-step">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-5 col-md-5 col-lg-4">
+            <div class="scroll-element js-scroll fade-in-bottom">
+              <img src="./images/logo-new.svg" class="phn-view" alt="" />
+              <div class="banner-heading">
+                <span> 22 DECEMBER 2021 </span>
+                <h1>Disrupt Yourself</h1>
+                <p>
+                  Power up Yourself. The future of work is Hybrid. Learn how
+                  to leverage Cloud, Data and AI to transform the Businesses
+                  and Workplace.
+                </p>
+
+                <span> HYBRID EVENT </span>
+                <br />
+                <button class="registers secure-seat checkout-button" type="button" onclick="openInviteModal();">
+                  SECURE YOUR SEAT NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ends -->
+    <!-- Unlock the TRANSFORMATION-section-starts -->
+    <section class="unlock-transformation pad-top-8">
+      <div class="container">
+        <span class="scroll-element js-scroll fade-in-bottom"> REVEAL</span>
+        <h2 class="unlock-transform scroll-element js-scroll fade-in-bottom">
+          Unlock the TRANSFORMATION
+        </h2>
+        <div class="row no-gutters">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="scroll-element js-scroll fade-in-bottom">
+              <a href="">
+                <div class="unlock-transform-wrapper">
+                  <img src="./images/community.svg" alt="" />
+                  <h3 class="scroll-element js-scroll fade-in-bottom">
+                    Community
+                  </h3>
+                  <p class="scroll-element js-scroll fade-in-bottom">
+                    Join the Slack Community and learn and discuss among peers
+                    and host Meetups.
+                  </p>
+                  <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="scroll-element js-scroll fade-in-bottom">
+              <div class="unlock-transform-wrapper middle">
+                <img src="./images/confrence.svg" alt="" />
+                <h3 class="scroll-element js-scroll fade-in-bottom">
+                  Conference
+                </h3>
+                <p class="scroll-element js-scroll fade-in-bottom">
+                  Technology Conference to provide awareness and networking
+                  Technology thought Leaders.
+                </p>
+                <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="scroll-element js-scroll fade-in-bottom">
+              <div class="unlock-transform-wrapper">
+                <img src="./images/cause.svg" alt="" />
+                <h3>Experimentation Labs</h3>
+                <p class="scroll-element js-scroll fade-in-bottom">
+                  Explore the Cloud Enabled AI Labs for the MVP and
+                  Experiments, Become Citizen Data Scientist.
+                </p>
+                <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Unlock the TRANSFORMATION-section-ends-->
+    <section class="we-create-impact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="we-create-impact-wrappper desk-top-view">
+              <span>TRACKS</span>
+              <h2 class="scroll-element js-scroll fade-in-bottom">
+                Conference <br />
+                Tracks
+              </h2>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="we-create-impact-wrappper mobile-view-impact">
+              <span>TRACKS</span>
+              <h2>Conference Tracks</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="four-card-section">
+        <div class="container">
+          <div class="row no-gutters">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="scroll-element js-scroll slide-left">
+                <div class="sub-section upper-boxes left-boxes">
+                  <img src="./images/card-1.png" class="four-cards" alt="" />
+                  <div class="content devops">
+                  <a href="/html/event.html/trail">  <h3>
+                      Artificial <br />
+                      Intelligence
+                    </h3>
+                  </a>
+
+                  <img src="./images/white-arrow.svg" alt="whie-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-right">
+              <div class="sub-section upper-boxes right-boxes">
+                <img src="./images/card-3.png" class="four-cards" alt="" />
+                <div class="content sre">
+                  <h3>
+                    Data <br />
+                    Intelligence
+                  </h3>
+
+                  <img src="./images/white-arrow.svg" alt="whie-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-left">
+              <div class="sub-section left-boxes upper-boxes">
+                <img src="./images/card-2.png" class="four-cards" alt="" />
+                <div class="content cloud">
+                  <h3>
+                    Hybrid & <br />
+                    Multi Cloud
+                  </h3>
+
+                  <img src="./images/white-arrow.svg" alt="whie-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-right">
+              <div class="sub-section right-boxes upper-boxes">
+                <img src="./images/card-4.png" class="four-cards" alt="" />
+                <div class="content aws">
+                  <h3>
+                    Cloud Native <br />
+                    Security
+                  </h3>
+
+                  <img src="./images/white-arrow.svg" alt="whie-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-3"></div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-right">
+              <div class="sub-section upper-boxes right-boxes last-box">
+                <img src="./images/card-5.png" class="four-cards" alt="" />
+                <div class="content sre org">
+                  <h3>
+                    Organisational <br />
+                    Transformation
+                  </h3>
+
+                  <img src="./images/white-arrow.svg" alt="whie-arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ends -->
+    <!-- Reasons to join Chandigarh.Ai-section-starts -->
+    <section class="why-join-with-us pad-top-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <span class="sub-heading scroll-element js-scroll fade-in-bottom">WHY JOIN US</span>
+            <h2 class="scroll-element js-scroll fade-in-bottom">
+              Reasons to join Chandigarh.AI
+            </h2>
+            <p class="drop-para">
+              Our events bring together the latest technology advancements as
+              well as practical examples to apply AI to solve challenges in
+              business and society. Our unique mix of academia and industry
+              enables you to meet with AI pioneers at the forefront of
+              research, as well as exploring real-world case studies to
+              discover the business value of AI.
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="./images/drop-1.svg" class="drop" alt="" />
+            <button class="accordion">Extraordinary Speakers</button>
+            <div class="panel">
+              <p>
+                Hear from Expert Speakers on recent, relevant developments and
+                the progression of AI , Data intelligence , Hybrid and multi
+                cloud , Cloud native security and Organisational
+                transformation in Industry
+              </p>
+            </div>
+            <img src="./images/drop-2.svg" class="drop" alt="" />
+            <button class="accordion">Discover Emerging Trends</button>
+            <div class="panel">
+              <p>
+                Hear real-word case studies, business insights and lessons
+                learned from leaders in innovation, technology, and
+                integration to discover the best strategies, tools & methods
+                and transform your business
+              </p>
+            </div>
+            <img src="./images/drop-3.svg" class="drop" alt="" />
+            <button class="accordion">Q&A Sessions with Experts</button>
+            <div class="panel">
+              <p>
+                Live QandA session with experts to resolve all the queries and
+                Expert Advice to resolve all the challenges that hamper growth
+                and organisation transformation
+              </p>
+            </div>
+            <img src="./images/drop-4.svg" class="drop" alt="" />
+            <button class="accordion">Expand your Network</button>
+            <div class="panel">
+              <p>
+                A unique opportunity to interact with the leading solution
+                providers as well as technologists advancing the field. Learn
+                from & connect with Experts.
+              </p>
+            </div>
+            <img src="./images/drop-5.svg" class="drop" alt="" />
+            <button class="accordion">Access Online Communities</button>
+            <div class="panel">
+              <p>
+                Access online Slack communities and stay updated always with
+                the upcoming meet-ups and Masterclass programs and other
+                Exclusive Features
+              </p>
+            </div>
+            <img src="./images/drop-6.svg" class="drop" alt="" />
+            <button class="accordion">Participate from any device</button>
+            <div class="panel">
+              <p>
+                Participate online from any device so that if you’re on the
+                move or at home, you’ll be sure not to miss out!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reasons to join Chandigarh.Ai-section-ends -->
+    <!-- Dive Deep with EXPERTS and CUSTOMERS-starts -->
+    <section class="upcoming-events pad-top-8">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <span class="scroll-element js-scroll fade-in-bottom">EXPLORE MORE</span>
+          </div>
+          <div class="col-12 col-sm-10 col-md-7 col-lg-7">
+            <h2 class="scroll-element js-scroll fade-in-bottom">
+              Explore more in Community and Experimentation Labs
+            </h2>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-left">
+              <img src="./images/seat.png" class="overlap-img" alt="" />
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="upcoming-events-wrapper">
+              <h3 class="scroll-element js-scroll fade-in-bottom">Meetups</h3>
+              <p class="scroll-element js-scroll fade-in-bottom">
+                Join the global community on slack and learn from the experts
+                . Get the expert Advice on the challenges . Deep and focused
+                coverage of an issue. Active participation in group activities
+                and thorough understanding of AI , Data Intelligence , Cloud
+                Native Security , Hybrid and multi cloud and Organisational
+                transformation
+              </p>
+              <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row reverse no-gutters">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-right">
+              <img src="./images/conference.png" class="middle-element-img overlap-img" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="upcoming-events-wrapper middle-element">
+              <h3 class="scroll-element js-scroll fade-in-bottom">
+             <a href="/masterclass.html">   Masterclass Program</a>
+              </h3>
+              <p class="scroll-element js-scroll fade-in-bottom">
+                Join our global community of hardware designers and software
+                developers for an online program that puts cutting-edge
+                technology right at your fingertips. Be the first to learn
+                about the latest advancements shaping the next decade of
+                computing. Grow your network and build the skills to work in
+                the competitive world .
+              </p>
+              <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="scroll-element js-scroll slide-left">
+              <img src="./images/people.png" class="overlap-img" alt="" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="upcoming-events-wrapper">
+              <h3 class="scroll-element js-scroll fade-in-bottom">
+                Product Showcase
+              </h3>
+              <p class="scroll-element js-scroll fade-in-bottom">
+                Product Showcase provides opportunities to the people to
+                promote and discuss their latest products, services, and
+                technologies. Attendees learn about a wealth of products and
+                services affecting professionals working in a coordinated care
+                setting .
+              </p>
+              <img src="./images/white-arrow.svg" class="white-arrow" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dive Deep with EXPERTS and CUSTOMERS-ends-->
+    <!-- footer-section-starts -->
+    <section class="upcoming-events-footer pad-top-8">
+      <div class="container">
+        <h2>Upcoming Events</h2>
+        <div class="desktop-view-footer">
+          <div class="row">
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <div class="slider-wrapper">
+                <span>ONLINE EVENT</span>
+                <h3 class="slider-heading">CNCF Cloud Native Meetup</h3>
+                <span>13 November 2021</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <div class="slider-wrapper data">
+                <span>ONLINE EVENT</span>
+                <h3 class="slider-heading">DataOps Meetup</h3>
+                <span>27 November 2021</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <div class="slider-wrapper">
+                <span>ONLINE EVENT</span>
+                <h3 class="slider-heading">PyData Meetup</h3>
+                <span>4 December 2021</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mid-view">
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="slider-wrapper">
+                    <span>ONLINE EVENT</span>
+                    <h3 class="slider-heading">CNCF Cloud Native Meetup</h3>
+                    <span>13 November 2021</span>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="slider-wrapper data">
+                    <span>ONLINE EVENT</span>
+                    <h3 class="slider-heading">DataOps Meetup</h3>
+                    <span>27 November 2021</span>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="slider-wrapper">
+                    <span>ONLINE EVENT</span>
+                    <h3 class="slider-heading cncf">PyData Meetup</h3>
+                    <span>4 December 2021</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-view-team-sec">
+          <div class="phn-view-team-slider">
+            <div class="slider-img">
+              <div class="slide">
+                <div class="slider-wrapper">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading">CNCF Cloud Native Meetup</h3>
+                  <span>13 November 2021</span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-wrapper">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading">DataOps Meetup</h3>
+                  <span>27 November 2021</span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-wrapper">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading cncf">PyData Meetup</h3>
+                  <span>4 December 2021</span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-wrapper data">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading">DataOps Meetup</h3>
+                  <span>27 November 2021</span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-wrapper">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading">CNCF Cloud Native Meetup</h3>
+                  <span>13 November 2021</span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-wrapper">
+                  <span>ONLINE EVENT</span>
+                  <h3 class="slider-heading">CNCF Cloud Native Meetup</h3>
+                  <span>13 November 2021</span>
+                </div>
+              </div>
+            </div>
+            <div class="next-arrow">
+              <a class="prev">
+                <img src="./images/blue-arrow.svg" class="slider-arrow" alt="" />
+              </a>
+              <a class="next">
+                <img src="./images/blue-arrow.svg" class="slider-arrow" alt="" /></a>
+            </div>
+            <div class="next-arrow">
+              <a class="prev">
+                <img src="./images/blue-arrow.svg" class="slider-arrow" alt="" />
+              </a>
+              <a class="next">
+                <img src="./images/blue-arrow.svg" class="slider-arrow" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <section class="footer-upper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+              <h2 class="scroll-element js-scroll fade-in-bottom footer-heading">
+                Understand us better and join Slack Community
+              </h2>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+              <button class="footer-register checkout-button" type="button" onclick="openInviteModal();">
+                REGISTER
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-links">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="image-footer">
+                <img src="./images/logo-new.svg" class="footer-logo" alt="" />
+                <h2>Chandigarh.AI</h2>
+              </div>
+              <p>Stay uptodate with upcoming Events and updates</p>
+              <input type="email" placeholder="Enter Email" />
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+              <p class="footer-text above-links">Follow us on Social Media</p>
+              <ul>
+                <li class="social-links">
+                  <img src="./images/facebook.svg" alt="" />
+                </li>
+                <li class="social-links">
+                  <img src="./images/twitter.svg" alt="" />
+                </li>
+                <li class="social-links">
+                  <img src="./images/linkedin.svg" alt="" />
+                </li>
+                <li class="social-links">
+                  <img src="./images/email.svg" alt="" />
+                </li>
+              </ul>
+              <p class="footer-text below-links">
+                Copyright.2020.All rights reserved. | Privacy policy | Terms
+                of service
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </main>
+  <!--footer-section--ends -->
+  <script src="./js/header.js"></script>
+  <script src="./js/splide.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/phn-view-slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@900&family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@900&family=Open+Sans:wght@400;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
+html {
+  font-family: sans-serif;
+  font-size: 8px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "sf_pro_displaybold";
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #334960;
+  background-color: #ffffff;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  padding: 0;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 135%;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 5rem;
+  line-height: 135%;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 135%;
+  color: #222C3A;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 2rem;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 2.3rem;
+  line-height: 150%;
+  margin: 0 0 1rem;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+label {
+  font-size: 1.7rem;
+  line-height: 130%;
+  margin: 0 0 1rem;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+span {
+  font-size: 2.3rem;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: block;
+}
+
+a {
+  color: #1450A8;
+  text-decoration: none;
+}
+
+/* a:hover {
+  color: #4888E5;
+  text-decoration: none;
+  outline: none;
+} */
+
+figure {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+@media screen and (max-width:1368px) {
+  /* 	h1 {
+  	font-size: 46px;
+  	line-height:130%;
+	} */
+  /* h2 {
+  	font-size: 38px;
+  	line-height:130%;
+	} */
+  /* h3 {
+    font-size: 26px;
+    line-height: 130%;
+  } */
+}
+
+@media screen and (max-width:1024px) {
+  /* 	h1 {
+  	font-size: 40px;
+    line-height:130%;
+	} */
+  /* h2 {
+  	font-size: 33px;
+    line-height:130%;
+	} */
+  /* h3 {
+    font-size: 25px;
+    line-height: 130%;
+  } */
+  /* 	p{
+  	font-size: 20px;
+  	line-height: 26px;
+	} */
+}
+
+@media screen and (max-width:640px) {
+  /* 	h1 {
+  	font-size: 33px;
+  	line-height:130%;
+	} */
+  /* h2 {
+  	font-size: 26px;
+    line-height:130%;
+	} */
+  /* h3 {
+    font-size: 22px;
+    line-height: 130%;
+  } */
+  /* 	p{
+  	font-size: 18px;
+  	line-height: 22px;
+	} */
+}
+
+/* @media (max-width:767px)
+  {
+    p{
+      font-size: 14px;
+      line-height:135%;
+    }
+    label
+    {
+      font-size:12px;
+      line-height:135%;
+    }
+  } */
+
+/* @media(min-width:768px) and (max-width:1023px)
+  {
+    p{
+      font-size:16px;
+      line-height:135%;
+    }
+    label
+    {
+      font-size:14px;
+      line-height:135%;
+    }
+  } */
+
+/* @media(min-width:1024px) and (max-width:1439px)
+  {
+    p{
+      font-size: 18px;
+      line-height:135%;
+    }
+    label
+    {
+      font-size: 16px;
+      line-height:135%;
+
+    }
+  } */
+
+@media (max-width:1024px) {
+  html {
+    font-size: 6px;
+  }
+}
